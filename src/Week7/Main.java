@@ -7,8 +7,10 @@ public class Main {
         filtter myfiltter1=new my_filtter1();
         filtter myfiltter2=new my_filtter2();
         filtter grayfiltter=new gray_adapter_filtter();
+
         for (Image i:images
              ) {
+            imageView.show_Image(i);
             imageView.show_Image(myfiltter1.applyfiltter(i));
             imageView.show_Image(myfiltter2.applyfiltter(i));
             imageView.show_Image(grayfiltter.applyfiltter(i));
