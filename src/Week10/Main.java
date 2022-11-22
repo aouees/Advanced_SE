@@ -1,4 +1,4 @@
-package week10;
+package Week10;
 
 public class Main {
 
